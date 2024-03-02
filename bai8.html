@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Bai 8</title>
+    </head>
+    <style> 
+        .container{
+            border-style: solid;
+            border-width: 1px;
+            width: 750px;
+            height: 460px;
+            margin-left: 250px;
+            margin-top: 50px;
+            display: inline-block;
+        }
+        .side-bar{
+            display: inline-block;
+            vertical-align: top;
+            width: 190px;
+        }
+        .side-bar button{
+            background-color: white;
+            color:rgba(5, 5, 120, 0.701);
+            font-weight: bold;
+            border-style: solid;
+            border-color: rgba(5, 5, 120, 0.701);
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+        }
+        .title{
+            color: rgb(235, 14, 14);
+            margin-left: 175px;
+            font-family: Roboto;
+            font-weight: 800;
+        }
+        .content{
+           display: inline-block;
+            
+        }
+        .label{
+            display: inline-block;
+            width: 150px;
+            text-align: right;
+            vertical-align: top;
+            
+        }
+        .form{
+            display: inline-block;
+        }
+       p{
+        margin-top: 0;
+        margin-bottom: 6px;
+       }
+       .form input,
+        .form select,
+        .form textarea{
+            margin-bottom: 6px;
+        }
+        .label p,
+        .check{
+            color:rgba(5, 5, 120, 0.701);
+        }
+        .choose button{
+            border-style: solid;
+            border-color: rgba(5, 5, 120, 0.701);
+            border-radius: 5px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <img src="style/z5201775384232_a61aca490d3809c169035d8e570904ba.jpg" alt="Error Image">
+            <div>
+                <div class="side-bar">
+                    <button>Trang chủ</button>
+                    <button>Giới thiệu sản phẩm</button>
+                    <button>Các đại lý</button>
+                    <button>Dịch vụ</button>
+                    <button>Hợp tác</button>
+                    <button>Góp ý</button>
+                    <button>Quảng cáo</button>
+                </div>
+                <div class="content">
+                    <div class="title">HỘP THƯ GÓP Ý</div>
+                    <div>
+                        <div class="label">
+                            <p>Họ tên</p>
+                            <p>Hộ khẩu</p>
+                            <p>Góp ý về lĩnh vực</p>
+                            <p>Ngôn ngữ</p>
+                            <p>Nội dung</p>
+                        </div>
+                        <div class="form">
+                            <input type="text"><br>
+                            <select>
+                                <option>Tp Ho Chi Minh</option>
+                            </select>
+                            <div class="check">
+                                <input type="checkbox"><label>Dịch vụ</label>
+                                <input type="checkbox"><label>Sản phẩm</label>
+                                <input type="checkbox"><label>Loại khác</label>
+                            </div>
+                            <div class="check">
+                                <input type="radio"><label>Anh</label>
+                                <input type="radio"><label>Việt</label>
+                            </div>
+                            <textarea id="" cols="30" rows="5"></textarea>
+                            <div class="choose">
+                                <button>Gui</button>
+                                <button>Xoa</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            <title>bai 7</title>
+    </head>
+    <style>
+        p,
+        .radio{
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .container{
+            border-style: solid;
+            border-width: 1px;
+            width: 600px;
+            height: 460px;
+            margin-left: 250px;
+            margin-top: 50px;
+        }
+        .info{
+            background-color: #BD2764;
+            margin: 1px 2px 2px 4px;
+            height: 442px;
+        }
+        .title{
+            text-align: center;
+            color: white;
+            font-family: Roboto;
+            margin-bottom: 0;
+        }
+        .content{
+            background:#FAEFF5;
+            margin-right: 2px;
+            margin-left: 2px;
+            font-family: Roboto;
+            color: #6D3F59;
+            height: 420px;
+        }
+        hr{
+            background-color: #FCDDEF;
+            width: 580px;
+            padding: 2px;
+            border: none;
+            border-radius: 2px;
+        }
+        .label{
+            display: inline-block;
+            width: 20%;
+            text-align: right;
+            vertical-align: top;
+            margin-right: 5px;
+            
+        }
+        .label p{
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        .text-input{
+            display: inline-block;
+            margin-top: 2px;
+            width: 450px;
+        }
+        .test{
+            display: inline-block;
+        }
+        .Fax{
+            margin-left: 45px;
+        }
+        .radio{
+            margin-left: 120px;
+        }
+        .title-radio{
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        button{
+            font-size: 15px;
+            font-weight: bold;
+            font-family: Roboto;
+            background-color:#FAEFF5;
+            color: #6D3F59; 
+            border-style: none;
+            box-shadow: 2px 3px 0px #EAD2E0;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 150px;
+        }
+        .test{
+            margin-left: 61px;
+        }
+    </style>
+    <body>
+        <div class="container">
+           <div class="info">
+            <p class="title">BILLING INFO</p>
+            <div class="content">
+                <form>  
+                <div class="label">
+                    <p>Full name:*</p>
+                    <p>Company:</p>
+                    <p>Address:*</p>
+                    <p>City:</p>
+                    <p>Country:</p>
+                    <p>Phone:</p>
+                    <p>E-mail:</p> 
+                </div>
+                <div class="text-input">
+                    <input type="text" size="55"/><br>
+                    <input type="text" size="55"/><br>
+                    <input type="text" size="55"/><br>
+                    <input type="text" size="55"/><br>
+                    <input type="text" size="55"/><br>
+                    <input type="text"/>
+                    <label class="Fax">Fax:</label>
+                    <input type="text" /><br>
+                    <input type="text" size="55" /><br>
+                </div>
+                  </form>
+             <hr>
+             <p class="title-radio">Term of payment:*</p>
+             <form class="radio">
+                <input type="radio"><label>L/C at sight</label><br>
+                <input type="radio"><label>D/P at sight</label><br>
+                <input type="radio"><label>T.Tr at sight (30% in advence, 70% after received shipping documents in Fax)</label><br>
+             </form>
+             <div>
+                <div class="test">
+                    <p class="label" style="margin: 0">Content:*</p>
+                    <textarea id="" cols="30" rows="5"></textarea>
+                </div>
+            <div style="font-style: italic; "> Fields with a* are required</div>  
+            <div>
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
+             </div>
+            </div>
+           </div>
+        </div>
+    </body>
+</html>

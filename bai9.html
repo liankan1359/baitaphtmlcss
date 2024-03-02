@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Bai 9</title>
+    </head>
+    <style>
+        .container{
+            border-style: solid;
+            border-width: 1px;
+            width: 973px;
+            height: 400px;
+            margin-left: 250px;
+            margin-top: 50px;
+        }
+        .container-sidebar{
+            background-color: #FFFDF0;
+            display: inline-block;
+            height: 300px;
+            margin-right:35px;
+            vertical-align: top;
+        }
+        .side-bar table tr{
+            background-color:#9AB7D5;
+            color:white;
+        }
+        .side-bar table tr td{
+            border: 1px solid #ccc;
+        }
+        .Content{
+            display: inline-block;
+            margin-right: 36px;
+        }
+        .Content table{
+            width: 560px;
+            border-color: #A7BEA2;
+            
+        }
+        .caption{
+            font-family: Roboto;
+            font-weight: bold;
+            color: white;
+            background-color: #437B34;
+            text-align: center;
+        }
+        .label{
+            color:#352489;
+            text-align: right;
+        }
+        .Content table tr td{
+            padding: 2px;
+        }
+        .title{
+            background-color: #A5C9FB;
+            font-family: Roboto;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+        .row-1{
+            background-color: #E9F4FA;
+            color: #617485;
+            text-align: center;
+            font-family: Roboto;
+            font-weight: bold;
+        }
+        .row-2{
+            color:#352489;
+        }
+        .nav{
+            background-color: #FFFDF0;
+            display: inline-block;
+            height: 300px;
+            width: 200px;
+            color: #352489;
+        }
+        .nav img{
+            object-fit: contain;
+            width: 180px;
+        }
+        .nav p{
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <img src="style/bai9_1.jpg" alt="Error Image">
+            <div class="web-body">
+                <div class="container-sidebar">
+                    <div class="side-bar">
+                        <table  cellspacing="0" cellpadding="1">
+                            <tr><td>Trang chủ</td></tr>
+                            <tr><td>Danh sách sinh viên</td></tr>
+                            <tr><td>Danh sách MH</td></tr>
+                            <tr><td>Xem điểm</td></tr>
+                            <tr><td>Danh sách SV</td></tr>
+                            <tr><td>Kết quả MH</td></tr>
+                            <tr><td>Kết quả học tập</td></tr>
+                            <tr><td>Thêm sinh viên</td></tr>
+                            <tr><td>Thêm DS SV</td></tr>
+                            <tr><td>Thêm kết quả SV</td></tr>
+                        </table> 
+                    </div>
+                </div>
+                <div class="Content">
+                    <table border="1" cellspacing="0" cellpadding="1">
+                        <tr>
+                            <td class="caption" colspan="2">THÊM SINH VIÊN</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Mã sinh viên</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="label">Họ tên</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="label">Ngày sinh</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="label">Hình</td>
+                            <td><input type="text"><button>Browse...</button></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button>Add</button>
+                                <button>Update</button>
+                                <button>Save</button>
+                            </td>
+                        </tr>
+                    </table>
+                    <table border="1" cellspacing="0" cellpadding="1">
+                        <tr>
+                            <td class="title" colspan="5">DANH SÁCH SINH VIÊN</td>
+                        </tr>
+                        <tr class="row-1">
+                            <td>STT</td>
+                            <td>MASV</td>
+                            <td>Họ tên</td>
+                            <td>Ngày sinh</td>
+                            <td>Hình</td>
+                        </tr>
+                        <tr class="row-2">
+                            <td>1</td>
+                            <td>th09</td>
+                            <td>Nguyễn Lan</td>
+                            <td>1/1/1986</td>
+                            <td>h1.jpg</td>
+                        </tr>
+                        <tr class="row-2">
+                            <td>1</td>
+                            <td>th89</td>
+                            <td>Thanh Nhàn</td>
+                            <td>1/8/1985</td>
+                            <td>h2.gif</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="nav">
+                    <img src="style/bai9_2.jpg" alt="Error image">
+                    <p>Giới thiệu lớp chuyên đề ngôn ngữ c#, áp dụng trong lập trình web</p>
+                    <p>Tuyển nhân viên lập tình web</p>
+                    <img src="style/bai9_3.jpg" alt="Error image">
+                    <p style="text-decoration:underline">Thông báo về lịch thi HKI <br> Nhịp sống trẻ</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
